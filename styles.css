@@ -1,0 +1,343 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 8rem 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* CSS for the profile image with bubble effect */
+.profile-image {
+    width: 150px; /* Adjust the width of the image as needed */
+    height: 150px; /* Adjust the height of the image as needed */
+    border-radius: 50%; /* Make the image round */
+    margin: 0 auto 2rem; /* Center the image horizontally and add some space below */
+    display: block;
+    object-fit: cover; /* Ensure the image fills the container without stretching */
+    transition: transform 0.3s ease; /* Apply smooth transition on transform property */
+}
+
+/* Additional CSS for the "About Me" section */
+#about {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 4rem 0;
+}
+
+.container {
+    text-align: center; /* Center-align text within the container */
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333; /* Dark text color */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1 1 60%;
+    text-align: left; /* Align text to the left within the about text section */
+}
+
+.about-text p {
+    margin-bottom: 1.5rem; /* Add some space between paragraphs */
+    color: #666; /* Medium-dark text color */
+}
+
+.profile-image-container {
+    flex: 1 1 40%;
+    text-align: center; /* Center-align the profile image */
+}
+
+.profile-image {
+    width: 200px; /* Adjust the width of the image as needed */
+    height: 200px; /* Adjust the height of the image as needed */
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 2rem; /* Add some space below the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+    transition: transform 0.3s ease; /* Apply smooth transition on transform property */
+}
+
+.profile-image:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.profile-image:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+
+
+#hero .btn {
+    padding: 1rem 2rem;
+    background-color: #ffd700; /* Button background color */
+    color: #333; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #ffc800; /* Button background color on hover */
+    color: #333; /* Button text color on hover */
+}
+
+/* Sections styles */
+section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* CSS for the Projects section */
+#projects {
+    background-color: #fff; /* White background color */
+    padding: 4rem 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center; /* Center-align projects */
+    flex-wrap: wrap; /* Allow projects to wrap to the next line */
+    gap: 2rem; /* Add spacing between projects */
+}
+
+.project {
+    width: 300px; /* Adjust project width as needed */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to projects */
+    transition: transform 0.3s ease; /* Apply smooth transition on hover */
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Move project up slightly on hover */
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for project images */
+    margin-bottom: 1rem;
+}
+
+.project-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-details p {
+    color: #666; /* Medium-dark text color */
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #333; /* Dark background color for links */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Apply smooth transition on hover */
+}
+
+.project-link:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+/* CSS for the Blog section */
+#blog {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blog-image {
+    flex: 1 1 40%;
+    margin-bottom: 2rem;
+}
+
+.blog-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-text {
+    flex: 1 1 50%;
+}
+
+.blog-text h3 {
+    margin-top: 2rem;
+}
+
+.blog-text ul {
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+}
+
+.blog-text ul li {
+    margin-bottom: 0.5rem;
+
+}
+
+.blog-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-text a:hover {
+    text-decoration: underline;
+}
+
+/* CSS for the Contact Me section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1 1 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.contact-info a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.contact-form {
+    display: none; /* Hide the form */
+}
+
+/* Style links within the contact section */
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .contact-info {
+        flex: 1 1 50%;
+        margin-bottom: 0;
+    }
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    margin-top: 1rem;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
